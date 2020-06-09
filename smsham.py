@@ -1365,7 +1365,7 @@ while len(anim) > y:
 print(anim[3])
 
 import colorama
-_phone = input("\033[37m [Номер телефона]:\033[0m +7")
+_phone = input("\033[37m [Номер телефона]:\033[0m +3")
 print("\033[32mАтака вот уже началась. Советую:\033[0m")
 print("\033[33m"+sovet[random.randint(0, len(sovet)-1)]+"\033[0m")
 print()
